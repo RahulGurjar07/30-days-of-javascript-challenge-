@@ -21,6 +21,7 @@ console.log(assignStr);
 
 ### Task 3: Declare a variable using `const`, assign it a Boolean , and log the value to the console
 
+
 ```
 const isTrue = true
 console.log(isTrue);
