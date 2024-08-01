@@ -81,6 +81,30 @@ image.setAttribute('alt', 'New Image');
 
 
 // Task 8: Add and remove a CSS class to/from an HTML element.
+function addClass() {
+  let element = document.getElementById('myParagraph')
+  element.classList.add('highlight')
+}
+
+function removeClass() {
+  let element = document.getElementById('myParagraph')
+  element.classList.remove('highlight')
+}
+
+
 // Activity 5: Event Handling
+
 // Task 9: Add a click event listener to a button that changes the text content of a paragraph.
+function changeText() {
+  let element = document.getElementById('changeText')
+  element.textContent = 'This is the new text.';
+}
+
 // Task 10: Add a mouseover event listener to an element that changes its border color.
+document.getElementById('changeBorderColor').addEventListener('mouseover', function() {
+  this.style.borderColor = 'red';
+})
+
+document.getElementById('changeBorderColor').addEventListener('mouseout', function(){
+  this.style.borderColor = 'black'
+})

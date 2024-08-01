@@ -10,6 +10,14 @@
             height: 200px;
             background-color: yellow;
         }
+        .highlight {
+            background-color: yellow;
+        }
+        #changeBorderColor {
+            width: 200px;
+            height: 200px;
+            border: 2px solid black;
+        }
     </style>
 </head>
 <body>
@@ -41,6 +49,18 @@
       <!-- Task 7 -->
       <img id="myImage" src="old-image.jpg" alt="Old Image" width="200">
 
-    <script src="DOM_Msnipulation.js"></script>
+      <!-- Task 8 -->
+      <p id="myParagraph">This is a paragraph.</p>
+    <button onclick="addClass()">Add Class</button>
+    <button onclick="removeClass()">Remove Class</button>
+
+    <!-- Task 9 -->
+     <p id="changeText">when click to the button text will be changed</p>
+     <button onclick="changeText()">Text change</button>
+
+     <!-- Task 10 -->
+      <div id="changeBorderColor">Change border color</div>
+
+    <script src="DOM_Manipulation.js"></script>
 </body>
 </html>
