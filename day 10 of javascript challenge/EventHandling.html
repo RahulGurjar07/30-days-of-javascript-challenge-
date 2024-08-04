@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #myImage {
+            display: block;
+        }
+
+        #changeBg{
+            width: 200px;
+            height: 200px;
+            margin: 20px;
+            background-color: yellowgreen;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <p id="changeContent">this is old content</p>
+    <button onclick="changeText()">click here</button>
+
+    <img src="https://images.unsplash.com/photo-1705422657151-037e5be3a326?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="" id="myImage" width="200px">
+
+    <div id="changeBg">
+        inner text
+    </div>
+
+    <input type="text" placeholder="type something.." id="myInput">
+    <p id="displayParagraph">Current Value: </p>
+
+    <script src="EventHandling.js"></script>
+</body>
+
+</html>
